@@ -5,10 +5,16 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css' />
 		<link rel='stylesheet' href='css/mainStyle.css' />
+    <link href="https://fonts.googleapis.com/css?family=Righteous" rel="stylesheet">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js"></script>
 	</head>
 
 	<body>
     <div class='wrapper'>
+      <div class='titleBar'>
+        <a href="index.html"><p id="logo">Madison Percussion Academy</p></a>
+      </div>
       
 		<section class='home' id='home'>
     
@@ -16,6 +22,32 @@
     		<h3 class='text-center'>Madison, Alabama</h3>
     
     		<p class='text-center'>Same familiar faces, same beliefs, principles, and level of excellence -- the momentum continues...</p>
+
+        <div id='myCarousel' class='carousel slide' data-ride="carousel" data-interval="3000">
+          <ol class='carousel-indicators'>
+            <li data-target='#mpaCarousel' data-slide-to='0' class='active'></li>
+            <li data-target="#mpaCarousel" data-slide-to="1"></li>
+            <li data-target="#mpaCarousel" data-slide-to="2"></li>
+            <li data-target="#mpaCarousel" data-slide-to="3"></li>
+          </ol>
+  
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="images/slide1.jpg" />
+            </div>
+
+          <div class="item">
+            <img src="images/slide2.jpg" />
+          </div>
+    
+          <div class='item'>
+            <img src="images/slide3.jpg" />
+          </div>
+    
+          <div class='item'>
+           <img src="images/slide4.jpg" />
+          </div>
+        </div>
     
     		<div class='text-center'>
     			<a class="btn btn-lg btn-primary" href='audition.html'>Audition Info</a>
