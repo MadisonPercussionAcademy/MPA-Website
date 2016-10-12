@@ -12,7 +12,8 @@ body{
 }
 
 .fade {
-  -webkit-animation:fading 10s infinite;animation:fading 10s infinite
+  transition: fading 10s infinite;animation:fading 10s infinite;
+  -webkit-animation:fading 10s infinite;animation:fading 10s infinite;
 }
  
 
