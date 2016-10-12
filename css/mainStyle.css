@@ -11,13 +11,18 @@ body{
 
 }
 
+.fade {
+  -webkit-animation:fading 10s infinite;animation:fading 10s infinite
+}
+ 
+
+
 .home {
   padding: 15px;
   position: relative;
   padding-top: 70px;
   min-height: 110vh;
-  background-color: #fff;
-  
+  background-color: #fff; 
 }
 
 .audition {
@@ -39,10 +44,11 @@ footer {
   background-color: #CCC;
   width: 100%;
   font-size: 18px;
-  position: fixed;
+  
   bottom: 0;
   display: inline-block; 
   line-height: 20px;
+  border-top: 1px solid black;
 }
 
 .copy{
@@ -96,3 +102,5 @@ form {
   display: block;
   margin: 0 auto;
 }
+
+tr:nth-child(even) {background-color: #f2f2f2}
