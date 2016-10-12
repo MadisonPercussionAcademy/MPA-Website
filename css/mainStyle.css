@@ -103,6 +103,8 @@ form {
   max-width: 600px;
   display: block;
   margin: 0 auto;
+  border: 1px solid black;
+  padding: 10px;
 }
 
 tr:nth-child(even) {background-color: #f2f2f2}
