@@ -12,10 +12,11 @@ body{
 }
 
 .fade {
-  animation: fading 10s infinite;animation:fading 10s infinite;
+  
   -webkit-animation:fading 10s infinite;animation:fading 10s infinite;
   -moz-animation:fading 10s infinite;animation:fading 10s infinite;
   -o-animation:fading 10s infinite;animation:fading 10s infinite;
+  animation: fading 10s infinite;animation:fading 10s infinite;
 }
  
 
