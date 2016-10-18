@@ -1,6 +1,7 @@
 body{
   overflow-x: hidden;
-  background-color: #006600; 
+   background: url("images/backgroundPic.jpg") no-repeat center center fixed;
+  background-size: cover;
 }
 
 .red-text {
