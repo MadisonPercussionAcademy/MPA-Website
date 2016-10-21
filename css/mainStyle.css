@@ -9,7 +9,7 @@ body{
   
 }
 
-.carousel-control.right, .carousel-control.left {
+.carousel-control {
   background-image:none;
 }
 
