@@ -9,6 +9,10 @@ body{
   
 }
 
+.padded {
+  padding: 10px;
+}
+
 .navbar {
   max-width: 1080px;
   text-align: center;
