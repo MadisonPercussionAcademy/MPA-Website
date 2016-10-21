@@ -9,10 +9,6 @@ body{
   
 }
 
-.padded {
-  padding: 10px;
-}
-
 .navbar {
   max-width: 1080px;
   text-align: center;
@@ -130,7 +126,7 @@ form {
   display: block;
   margin: 0 auto;
   border: 1px solid black;
-  padding: 10px;
+  padding: 20px;
 }
 
 tr:nth-child(even) {background-color: #f2f2f2}
