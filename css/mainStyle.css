@@ -9,8 +9,8 @@ body{
   
 }
 
-.carousel-control {
-  background-image:none;
+.carousel-control.left, .carousel-control.right {
+    background-image: none !important;
 }
 
 .carousel-indicators li { visibility: hidden; }
