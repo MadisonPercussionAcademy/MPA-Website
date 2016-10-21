@@ -9,6 +9,8 @@ body{
   
 }
 
+.carousel-indicators li { visibility: hidden; }
+
 .navbar {
   max-width: 1080px;
   text-align: center;
