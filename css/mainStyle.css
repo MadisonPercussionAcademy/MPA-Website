@@ -9,6 +9,10 @@ body{
   
 }
 
+.carousel-control.right, .carousel-control.left {
+  background-image:none;
+}
+
 .carousel-indicators li { visibility: hidden; }
 
 .navbar {
