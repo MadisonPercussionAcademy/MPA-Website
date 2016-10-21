@@ -9,6 +9,10 @@ body{
   
 }
 
+.item {
+  box-shadow: none !important;
+}
+
 .carousel-control.left, .carousel-control.right {
     background-image: none !important;
 }
