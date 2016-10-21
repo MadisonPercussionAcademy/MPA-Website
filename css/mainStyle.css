@@ -88,9 +88,9 @@ footer {
 
 img {
   margin: 0px auto 20px auto;
--webkit-box-shadow: -2px -2px 17px 0px rgba(50, 50, 50, 0.71);
--moz-box-shadow:    -2px -2px 17px 0px rgba(50, 50, 50, 0.71);
-box-shadow:         -2px -2px 17px 0px rgba(50, 50, 50, 0.71);
+-webkit-box-shadow: -2px -2px 17px 0px rgba(50, 50, 50, 0.85);
+-moz-box-shadow:    -2px -2px 17px 0px rgba(50, 50, 50, 0.85);
+box-shadow:         -2px -2px 17px 0px rgba(50, 50, 50, 0.85);
 
 }
 
