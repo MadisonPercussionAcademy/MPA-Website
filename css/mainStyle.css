@@ -57,21 +57,34 @@ body{
   color: #fff;
 }
 
+.social {
+	width: 40px;
+	height: 40px;
+  margin-top: 13px;
+	
+}
+
 footer {
   text-align: center;
-  background-color: #000;
+  background-color: #303030;
   width: 100%;
   font-size: 18px;
   bottom: 0;
   display: inline-block; 
-  line-height: 20px;
+  line-height: 35px;
   border-top: 1px solid black;
   color: #fff;
+}
+
+footer a {
+    padding: 10px;   
 }
 
 .copy{
   margin-top: 10px;
   text-align: center;
+  display: inline-block;
+  margin-left: 10px;
 }
 
 .chops {
@@ -157,5 +170,3 @@ a:hover {
   max-width: 600px;
   margin: 0 auto;
 }
-
-
