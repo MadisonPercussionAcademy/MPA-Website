@@ -10,12 +10,15 @@ body{
 }
 
 .onlineReg {
-	width: 200px;
-	height: 150px;
-	border: 2px solid black;
-	display: block;
-	margin: auto;
-	padding: 5px;
+  background-color: #333;
+  color: #fff;
+  font-family: 'Raleway', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  letter-spacing: 1.3px;
+  padding: 16px 40px;
+  text-decoration: none;
+  text-transform: uppercase;
 }
 
 .carousel-indicators li { visibility: hidden; }
